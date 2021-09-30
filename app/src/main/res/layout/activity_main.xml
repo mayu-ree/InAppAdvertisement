@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Banner"
+        android:layout_width="218dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Show Banner"
+        android:textColor="#FFFFFF" />
+
+
+
+
+    <Button
+        android:id="@+id/Interstitial"
+        android:layout_below="@+id/Banner"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Show Interstitial"
+        android:textColor="#FFFFFF" />
+
+
+
+
+    <Button
+        android:id="@+id/InterstitialVideo"
+        android:layout_below="@+id/Interstitial"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Show Interstitil Video"
+        android:textColor="#FFFFFF" />
+
+
+
+
+    <Button
+        android:id="@+id/Offerwall"
+        android:layout_below="@+id/InterstitialVideo"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Show Offerwall"
+        android:textColor="#FFFFFF" />
+
+
+
+
+    <Button
+        android:id="@+id/PushNotification"
+        android:layout_below="@+id/Offerwall"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Show Push Notiication"
+        android:textColor="#FFFFFF" />
+
+
+
+
+    <Button
+        android:id="@+id/RewardedVideo"
+        android:layout_below="@+id/PushNotification"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Show Rewarded Video"
+        android:textColor="#FFFFFF" />
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="In App Advertising"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

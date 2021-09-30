@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InAppAdvertisement</string>
+    <string name="watch_video_button_text">Rewarded Video</string>
+    <string name="watch_interstitial_button_text">Interstitial</string>
+    <string name="watch_banner_button_text">Banner</string>
+    <string name="watch_offerwall_button_text">OfferWall</string>
+</resources>
